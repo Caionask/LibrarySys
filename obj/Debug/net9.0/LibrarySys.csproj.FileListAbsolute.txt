@@ -1,0 +1,14 @@
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\bin\Debug\net9.0\LibrarySys.exe
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\bin\Debug\net9.0\LibrarySys.deps.json
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\bin\Debug\net9.0\LibrarySys.runtimeconfig.json
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\bin\Debug\net9.0\LibrarySys.dll
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\bin\Debug\net9.0\LibrarySys.pdb
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.AssemblyInfoInputs.cache
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.AssemblyInfo.cs
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.csproj.CoreCompileInputs.cache
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.dll
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\refint\LibrarySys.dll
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.pdb
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.genruntimeconfig.cache
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\ref\LibrarySys.dll
