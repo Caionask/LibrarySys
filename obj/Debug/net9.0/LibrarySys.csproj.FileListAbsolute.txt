@@ -12,3 +12,4 @@ C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\r
 C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.pdb
 C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.genruntimeconfig.cache
 C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\ref\LibrarySys.dll
+C:\Users\intel\Desktop\Code\BackEnd\CSharp\Pessoal\LibrarySys\obj\Debug\net9.0\LibrarySys.sourcelink.json
