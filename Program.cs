@@ -6,9 +6,12 @@ class Program
     static void Main()
     {
         Livro livro = new Livro();
-        bool executando=true;
+        bool executando = true;
+        bool executando2 = true;
+        bool disponibilidade;
+        string opcao;
 
-        while(executando)
+        while(executando == true)
         {
             Console.WriteLine("=============================");
             Console.WriteLine("         Library Hub         ");
@@ -20,38 +23,90 @@ class Program
             Console.WriteLine("=============================");
 
             Console.WriteLine("Escolha uma das opções acima:");
-            int opcao = Convert.ToInt32(Console.ReadLine());
+            int menu1 = Convert.ToInt32(Console.ReadLine());
 
-            if(opcao != 0 && opcao != 1)
+            if(menu1 != 0 && menu1 != 1)
             {
                 Console.WriteLine("\nOpção inválida.\n");
             } 
-            else if(opcao == 1)
+            else if(menu1 == 1)
             {
-                Console.WriteLine("\nCadastro automatico ativado:\n");
-                livro.Titulo = "Oroborus";
-                livro.Autor = "Bocadinhas";
-                livro.Editora = "Books & Books";
-                livro.ISBN = "666-66-333-0006-3";
-                livro.Paginas = 66;
-                livro.Ano = 1997;
-                livro.Disponivel = false;
+                while(executando2)
+                {
+                    Console.WriteLine("=============================");
+                    Console.WriteLine("            Livros           ");
+                    Console.WriteLine("=============================");
 
-                Console.WriteLine("\n** Primeiro livro cadastrado **\n");
-                Console.WriteLine($"Titulo: {livro.Titulo}");
-                Console.WriteLine($"Autor: {livro.Autor}");
-                Console.WriteLine($"Editora: {livro.Editora}");
-                Console.WriteLine($"ISBN: {livro.ISBN}");
-                Console.WriteLine($"Paginas: {livro.Paginas}");
-                Console.WriteLine($"Ano: {livro.Ano}");
-                Console.WriteLine($"Disponivel: {livro.Disponivel}");
+                    Console.WriteLine("1 - Cadastrar");
+                    Console.WriteLine("2 - Consultar");
+
+                    Console.WriteLine("=============================");
+
+                    Console.WriteLine("Escolha uma das opções acima:");
+                    int menu2 = Convert.ToInt32(Console.ReadLine());
+
+                    if(menu2 != 2 && menu2 != 1)
+                    {
+                        Console.WriteLine("\nOpção inválida.\n");                        
+                    }
+                    else if (menu2 == 1)
+                    {
+                        Console.WriteLine("\nAdicione um Titulo:\n");
+                        livro.Titulo = Console.ReadLine();  
+                        Console.WriteLine("\nAdicione um Autor:\n");
+                        livro.Autor = Console.ReadLine();
+                        Console.WriteLine("\nAdicione uma Editora:\n");
+                        livro.Editora = Console.ReadLine();
+                        Console.WriteLine("\nAdicione um ISBN (***-**-***-****-*):\n");
+                        livro.ISBN = Console.ReadLine();
+                        Console.WriteLine("\nAdicione um numero de paginas:\n");
+                        livro.Paginas = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("\nAdicione um Ano:\n");
+                        livro.Ano = Convert.ToInt32(Console.ReadLine());
+                        disponibilidade = false;
+                        Console.WriteLine("\nO livro está disponivel? S/N\n");
+                        while (disponibilidade == false)
+                        {
+                            opcao = Console.ReadLine();
+                            if(opcao != "S" && opcao != "N")
+                            {
+                                Console.WriteLine("Opcao invalida. Escolha entre 'S' e 'N'");
+                            }
+                            else if (opcao == "S")
+                            {
+                                livro.Disponivel = true;
+                                disponibilidade = true;
+                            }
+                            else
+                            {
+                                livro.Disponivel = false;
+                                disponibilidade = true;
+                            }
+                        }
+                        Console.WriteLine("\nLivro adicionado com sucesso.\n");
+                    }
+                    else
+                    {
+                        Console.WriteLine("\n** Livros cadastrados: **\n");
+                        Console.WriteLine($"Titulo: {livro.Titulo}");
+                        Console.WriteLine($"Autor: {livro.Autor}");
+                        Console.WriteLine($"Editora: {livro.Editora}");
+                        Console.WriteLine($"ISBN: {livro.ISBN}");
+                        Console.WriteLine($"Paginas: {livro.Paginas}");
+                        Console.WriteLine($"Ano: {livro.Ano}");
+                        Console.WriteLine($"Disponivel: {livro.Disponivel}");   
+                    }
+                    executando2 = false;
+                    
+                }
             }
             else
             {
                 Console.WriteLine("Volte sempre!");
                 executando = false;
+                return;
             }
         }
-
     }
 }
+
